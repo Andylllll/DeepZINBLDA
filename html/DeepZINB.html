@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: DeepZINBLDA</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for DeepZINB {DeepZINBLDA}"><tr><td>DeepZINB {DeepZINBLDA}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>DeepZINBLDA</h2>
+
+<h3>Description</h3>
+
+<p>Genetic cell classification is extremely important no matter in medical or biological fields. We design an antoencoder network to learn the parameters of the model, and use the zero-inflated negative binomial distribution as the loss function for better feature selection. Then we put the trained parameters into the zero-inflated negative binomial linear discriminant model, which based on the Bayesian model. Finally, the category of the sample is determined according to the discriminant score.
+</p>
+
+
+<h3>Usage</h3>
+
+<pre>
+DeepZINB(X_train, X_test, y_train, y_test, batch_size, path_py)
+</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>X_train</code></td>
+<td>
+<p>Matrix or data.The input training sample.</p>
+</td></tr>
+<tr valign="top"><td><code>X_test</code></td>
+<td>
+<p>Matrix or data.The input test sample.</p>
+</td></tr>
+<tr valign="top"><td><code>y_train</code></td>
+<td>
+<p>A vector shows the class of the input sample</p>
+</td></tr>
+<tr valign="top"><td><code>y_test</code></td>
+<td>
+<p>A vector shows the class of the output sample</p>
+</td></tr>
+<tr valign="top"><td><code>batch_size</code></td>
+<td>
+<p>Number of training batches of the neural network.</p>
+</td></tr>
+<tr valign="top"><td><code>path_py</code></td>
+<td>
+<p>The path of python.exe.</p>
+</td></tr>
+</table>
+
+
+<h3>Value</h3>
+
+<p>Misclassification of DeepZINBLDA
+</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+##simulation data
+library(reticulate)
+library(PoiClaClu)
+library(limma)
+library(sSeq)
+library(edgeR)
+library(DeepZINBLDA)
+library(stringr)
+X_train&lt;-data(simdata_xtr)
+X_train&lt;-simdata_xtr
+y_train&lt;-data(simdata_ytr)
+y_train&lt;-simdata_ytr
+X_test&lt;-data(simdata_xte)
+X_test&lt;-simdata_xte
+y_test&lt;-data(simdata_yte)
+y_test&lt;-simdata_yte
+batch_size=64
+path_py="F:/python/Anaconda3/python.exe"
+Misclassification&lt;-DeepZINB(X_train,X_test,y_train,y_test,batch_size,path_py)
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>DeepZINBLDA</em> version 0.0.9000 <a href="00Index.html">Index</a>]</div>
+</body></html>

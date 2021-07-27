@@ -1,0 +1,9 @@
+DeepZINB                DeepZINBLDA
+realdata_xte            A real dataset of genes
+realdata_xtr            A real dataset of genes
+realdata_yte            the label of a real dataset of genes
+realdata_ytr            the label of a real dataset of genes
+simdata_xte             A simulation data set with two classes
+simdata_xtr             A simulation data set with two classes
+simdata_yte             Category label of test simulation dataset
+simdata_ytr             Category label of training simulation dataset
