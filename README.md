@@ -28,16 +28,16 @@ Simulation data and real data are contained in the data folder. You can see the 
 DeepZINB(X_train, X_test, y_train, y_test, batch_size, path_py)
 
 ## Arguments
--[X_train :Matrix or data.The input training sample.]
+-X_train :Matrix or data.The input training sample.
 
--[X_test :Matrix or data.The input test sample.]
+-X_test :Matrix or data.The input test sample.
 
--[y_train :A vector shows the class of the input sample]
+-y_train :A vector shows the class of the input sample
 
--[y_test :A vector shows the class of the output sample]
+-y_test :A vector shows the class of the output sample
 
--[batch_size 	:Number of training batches of the neural network.]
+-batch_size 	:Number of training batches of the neural network.
 
--[path_py :The path of python.exe.]
+-path_py :The path of python.exe.
 
 
