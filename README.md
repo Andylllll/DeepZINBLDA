@@ -49,5 +49,5 @@ ZINBScore(X_train_, y_train, X_test_, y_test, batch_size, py_path)
 -batch_size 	:Number of training batches of the neural network.
 
 -py_path :The path of python.exe.
-
-
+## Value
+The prediction of X_test and y_test.
