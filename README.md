@@ -14,9 +14,18 @@ It is required to install the following dependencies in order to be able to run 
 - [Anaconda3](https://www.anaconda.com/products/individual)  
 - [R>=3.6.0](https://cran.r-project.org/)  
 - [python 3](https://www.python.org/downloads/)  
-  [sklearn](https://pypi.org/project/sklearn/0.0/),[numpy 1.19.1](https://pypi.org/project/numpy/1.19.1/),[tensorflow-gpu 1.15.0](https://pypi.org/project/tensorflow-gpu/1.15.0/),[keras 2.3.1](https://pypi.org/project/keras/2.3.1/),[scanpy 1.3.7](https://pypi.org/project/scanpy/1.3.7/)
+  [sklearn](https://pypi.org/project/sklearn/0.0/)
+  [numpy 1.19.1](https://pypi.org/project/numpy/1.19.1/)
+  [tensorflow-gpu 1.15.0](https://pypi.org/project/tensorflow-gpu/1.15.0/)
+  [keras 2.3.1](https://pypi.org/project/keras/2.3.1/)
+  [scanpy 1.3.7](https://pypi.org/project/scanpy/1.3.7/)
  - [R](https://www.r-project.org/)  
-  [reticulate](https://cran.r-project.org/web/packages/reticulate),[PoiClaClu](https://cran.rstudio.com/web/packages/PoiClaClu),[sSeq](http://www.bioconductor.org/packages/release/bioc/html/sSeq.html),[limma](http://www.bioconductor.org/packages/release/bioc/html/limma.html),[edgeR](http://www.bioconductor.org/packages/release/bioc/html/edgeR.html),[stringr](https://cran.r-project.org/web/packages/stringr)
+  [reticulate](https://cran.r-project.org/web/packages/reticulate)
+  [PoiClaClu](https://cran.rstudio.com/web/packages/PoiClaClu)
+  [sSeq](http://www.bioconductor.org/packages/release/bioc/html/sSeq.html)
+  [limma](http://www.bioconductor.org/packages/release/bioc/html/limma.html)
+  [edgeR](http://www.bioconductor.org/packages/release/bioc/html/edgeR.html)
+  [stringr](https://cran.r-project.org/web/packages/stringr)
   
 
 ## Data
