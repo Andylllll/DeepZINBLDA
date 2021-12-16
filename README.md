@@ -15,7 +15,8 @@ It is required to install the following dependencies in order to be able to run 
 - [R>=3.6.0](https://cran.r-project.org/)  
 - [python 3](https://www.python.org/downloads/)  
   [sklearn](https://pypi.org/project/sklearn/0.0/),[numpy 1.19.1](https://pypi.org/project/numpy/1.19.1/),[tensorflow-gpu 1.15.0](https://pypi.org/project/tensorflow-gpu/1.15.0/),[keras 2.3.1](https://pypi.org/project/keras/2.3.1/),[scanpy 1.3.7](https://pypi.org/project/scanpy/1.3.7/)
-  
+ - [R](https://www.r-project.org/)  
+  [reticulate](https://cran.r-project.org/web/packages/reticulate),[PoiClaClu](https://cran.rstudio.com/web/packages/PoiClaClu),[sSeq](http://www.bioconductor.org/packages/release/bioc/html/sSeq.html),[limma](http://www.bioconductor.org/packages/release/bioc/html/limma.html),[edgeR](http://www.bioconductor.org/packages/release/bioc/html/edgeR.html),[stringr](https://cran.r-project.org/web/packages/stringr)
   
 
 ## Data
@@ -25,7 +26,7 @@ Simulation data and real data are contained in the data folder. You can see the 
 
 ## Usage
 
-DeepZINB(X_train, X_test, y_train, y_test, batch_size, path_py)
+ZINBScore(X_train_, y_train, X_test_, y_test, batch_size, py_path)
 
 ## Arguments
 -X_train :Matrix or data.The input training sample.
@@ -38,6 +39,6 @@ DeepZINB(X_train, X_test, y_train, y_test, batch_size, path_py)
 
 -batch_size 	:Number of training batches of the neural network.
 
--path_py :The path of python.exe.
+-py_path :The path of python.exe.
 
 
