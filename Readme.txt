@@ -28,7 +28,7 @@ Specifically, we make an explain for each document in the following.
 	Combining with the trained parameters, it is used to calculate the discriminant score and obtain the labels of test set.
 
        Usage 
-	ZINBScore(X_train_, y_train, X_test_, y_test, batch_size, py_path, r_path)
+	ZINBScore(X_train_, y_train, X_test_, y_test, batch_size, py_path)
 
        Arguments 
 	X_train_ 	   Matrix or data.The input training sample.
