@@ -19,7 +19,7 @@ It is required to install the following dependencies in order to be able to run 
   [tensorflow-gpu 1.15.0](https://pypi.org/project/tensorflow-gpu/1.15.0/)
   [keras 2.3.1](https://pypi.org/project/keras/2.3.1/)
   [scanpy 1.3.7](https://pypi.org/project/scanpy/1.3.7/)
- - [R](https://www.r-project.org/)  
+ - [R>=4.1.0](https://www.r-project.org/)  
   [reticulate](https://cran.r-project.org/web/packages/reticulate)
   [PoiClaClu](https://cran.rstudio.com/web/packages/PoiClaClu)
   [sSeq](http://www.bioconductor.org/packages/release/bioc/html/sSeq.html)
