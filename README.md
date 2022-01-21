@@ -1,4 +1,4 @@
-# `DeepZINBLDA`
+# `Lazae`
 
 > a deep learning framework with statistical method to classify RNA-seq data.
 
